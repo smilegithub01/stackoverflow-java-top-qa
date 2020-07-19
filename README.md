@@ -9,22 +9,22 @@ stackoverflow-Java-top-qa
     对于参与翻译的人，这也是很好的一个学习、理解过程，欢迎大家一起来翻译
 
 -------------
-### 如何参与翻译（欢迎加入翻译组QQ群485011036）
-####如何参与：
+### 如何参与翻译
+#### 如何参与：
 - 请从下文“待翻译问题链接”中寻找你感兴趣的问答进行翻译。翻译好的问答，放到contents目录下，无需更新readme.md文档。之后提一个PR，我负责合并PR并更新到readme中。
 - 另外，为了避免多人重复新翻译一个问题，你可以提issue，说明你计划翻译的问题及时间点，我可以先更新到下面的”未翻译问题“中，说明已有人领了这个问题。当然，也不一定要提issue，一般情况下，只要及时提pr，我及时审核，出现”撞车“的概率并不高。
 
-####一些基本的约定：
+#### 一些基本的约定：
 - 文档的文件名，和stackoverflowhich-notnull-java-annotation-should-i-usew上的url保持一致。例如，http://stackoverflow.com/questions/8710619/java-operator 的文件名， 就是java-operator.md
 - 在每篇翻译文档内容的最后，要附上stackoverflow的原文链接
 
-####每个人可以做（但不限于）：
+#### 每个人可以做（但不限于）：
 - 找未翻译的问题进行翻译
 - 优化已翻译的问题
 - 输出问答精简汇总版（把所有的问答集中到一个md文件，然后尽量精简，让别人可以在一天内把这100个问题的精髓都看完）
 - 输出gitbook版本（现在直接在github上查看，体验不好）
 
-####文档优化反馈：
+#### 文档优化反馈：
 请大家多多反馈，优化已翻译好的文章：可以到[吐槽区](https://github.com/giantray/stackoverflow-java-top-qa/issues/66)吐槽，也可以在已翻译文章基础上进行优化，提新的PR。文章质量的提升，需要大家一起努力！
 
 
@@ -61,7 +61,6 @@ stackoverflow-Java-top-qa
 * [为什么Java的```Vector```类被认为是过时的或者废弃的](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/why-is-java-vector-class-considered-obsolete-or-deprecated.md)
 * [Java的foreach循环是如何工作的](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-does-the-java-for-each-loop-work.md)
 * [为什么相减这两个时间（1927年）会得到奇怪的结果](/contents/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result.md)
-* [Java 中如何将 String 转换为 enum](/contents/lookup-enum-by-string-value.md)
 * [该什么时候使用 ThreadLocal变量，它是如何工作的](/contents/when-and-how-should-i-use-a-threadlocal-variable.md)
 * [servlets的运行原理](/contents/how-do-servlets-work-instantiation-shared-variables-and-multithreading.md)
 * [如何计算MD5值](/contents/how-can-i-generate-an-md5-hash.md)
@@ -70,6 +69,10 @@ stackoverflow-Java-top-qa
 * [Java内部类和嵌套静态类](/contents/java-inner-class-and-static-nested-class.md)
 * [@Component, @Repository, @Service的区别](/contents/whats-the-difference-between-component-repository-service-annotations-in.md)
 * [如何创建泛型java数组](/contents/how-to-create-a-generic-array-in-java.md)
+* [如何在整数左填充0](/contents/how-can-i-pad-an-integers-with-zeros-on-the-left.md)
+* [Java里什么是与C++的Ｐair<L,R>相等的？](/contents/what-is-the-equivalent-of-the-c++pair-in-java.md)
+* [为什么数学函数Math.round(0.49999999999999994) 返回 1](/contents/why-does-math-round0-49999999999999994-return-1.md)
+* [这段代码为什么陷入了死循环](/contents/why-does-this-go-into-an-infinite-loop.md)
 
 > 编程技巧
 
@@ -92,9 +95,17 @@ stackoverflow-Java-top-qa
 * [如何在整数左填充0](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/how-can-i-pad-an-integers-with-zeros-on-the-left.md)
 * [在调用 instanceof 前需要进行null检查吗](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/is-null-check-needed-before-calling-instanceof.md)
 * [如何从文件里读取字符串](/contents/how-do-i-create-a-java-string-from-the-contents-of-a-file.md)
-* [遍历集合时移除元素，怎样避免ConcurrentModificationException异常抛出](/contents/iterating-through-a-collection-avoiding-concurrentmodificationexception-when-reiterating-through-a-collection-avoiding-concurrentmodificationexception-when-re.md)
+* [遍历集合时移除元素，怎样避免ConcurrentModificationException异常抛出](/contents/iterating-through-a-collection-avoiding-concurrentmodificationexception-when-re.md)
 * [如何让IntelliJ编辑器永久性显示代码行数](/contents/how-can-i-permanently-have-line-numbers-in-intellij.md)
 * [如何使用maven把项目及其依赖打包为可运行jar包](/contents/how-can-i-create-an-executable-jar-with-dependencies-using-maven.md)
+* [重新导入项目到eclipse时遇到'Must Override a Superclass Method'报错](/contents/must-override-a-superclass-method-errors-after-importing-a-project-into-eclips.md)
+* [如何产生一个随机的字母数字串作为 session 的唯一标识符](/contents/how-to-generate-a-random-alpha-numeric-string.md)  
+* [Apache Camel是什么](/contents/what-exactly-is-apache-camel.md)  
+* [通过对象属性对常规对象的ArrayList进行排序](/contents/sort-arraylist-of-custom-objects-by-property.md)  
+* [为Eclipse自动代码格式化设置行的最大长度？](/contents/Eclipse-set-maximun-line-length-for-auto-formatting.md)  
+* [加载JNI共享库失败（JDK）](/contents/failed-to-load-the-JNI-shared-library(JDK).md)  
+* [如何对Java class文件进行反编译](/contents/how-do-i-decompile-java-class-files.md)  
+* [如何在classpath中设置多个jar包](/contents/setting-multiple-jars-in-java-classpath.md)  
 
 > 网络
 
@@ -107,6 +118,7 @@ stackoverflow-Java-top-qa
 * [为什么处理排序的数组要比非排序的快](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/why-is-processing-a-sorted-array-faster-than-an-unsorted-array.md)
 * [如何使用Java创建一个内存泄漏的程序](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/creating-a-memory-leak-with-java.md)
 * [为什么打印“B”会明显的比打印“#”慢](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/why-is-printing-b-dramatically-slower-than-printing.md)
+* ["Double Brace Initialization"的效率问题](/contents/efficiency-of-java-double-brace-initialization.md)
 
 > 测试
 
@@ -118,34 +130,21 @@ stackoverflow-Java-top-qa
 * [在Android里面下载文件，并在ProgressDialog显示进度](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/download-a-file-with-android-and-showing-the-progress-in-a-progressdialog.md)
 * [如何获取Android设备唯一ID](https://github.com/giantray/stackoverflow-java-top-qa/blob/master/contents/is-there-a-unique-android-device-id.md)
 * [安装Android SDK的时候找不到JDK](contents/android-sdk-installation-doesnt-find-jdk.md)
+* [安卓中“UserManger.isUserAGoat()”的合适案例](contents/proper-use-cases-for-android-usermanager-isuseragoat.md)
 
-### 待翻译问题链接(还剩x问题)
-- [Proper use cases for Android UserManager.isUserAGoat()?](http://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat)
+
+### 待翻译问题链接(还剩 13 问题)
 - [Why is executing Java code in comments with certain Unicode characters allowed?](http://stackoverflow.com/questions/30727515/why-is-executing-java-code-in-comments-with-certain-unicode-characters-allowed)
-- [Convert a String to an enum in Java](http://stackoverflow.com/questions/604424/convert-a-string-to-an-enum-in-java)
-- ['Must Override a Superclass Method' Errors after importing a project into Eclipse](http://stackoverflow.com/questions/1678122/must-override-a-superclass-method-errors-after-importing-a-project-into-eclips)
 - [Fastest way to determine if an integer's square root is an integer](http://stackoverflow.com/questions/295579/fastest-way-to-determine-if-an-integers-square-root-is-an-integer)
 - [How to fix: Unsupported major.minor version 51.0 error?](http://stackoverflow.com/questions/10382929/how-to-fix-unsupported-major-minor-version-51-0-error)
-- [How to generate a random alpha-numeric string?](http://stackoverflow.com/questions/41107/how-to-generate-a-random-alpha-numeric-string)
-- [Failed to load the JNI shared Library (JDK)](http://stackoverflow.com/questions/7352493/failed-to-load-the-jni-shared-library-jdk)
-- [What exactly is Apache Camel?](http://stackoverflow.com/questions/8845186/what-exactly-is-apache-camel)
 - [Access restriction on class due to restriction on required library rt.jar?](http://stackoverflow.com/questions/860187/access-restriction-on-class-due-to-restriction-on-required-library-rt-jar)
 - [How do I discover memory usage of my application in Android?](http://stackoverflow.com/questions/2298208/how-do-i-discover-memory-usage-of-my-application-in-android)
 - [Uncatchable ChuckNorrisException](http://stackoverflow.com/questions/13883166/uncatchable-chucknorrisexception)
 - [Can I add jars to maven 2 build classpath without installing them?](http://stackoverflow.com/questions/364114/can-i-add-jars-to-maven-2-build-classpath-without-installing-them)
 - [Update Eclipse with Android development tools v. 23](http://stackoverflow.com/questions/24437564/update-eclipse-with-android-development-tools-v-23)
-- [Setting multiple jars in java classpath](http://stackoverflow.com/questions/219585/setting-multiple-jars-in-java-classpath)
 - [What is the Java equivalent for LINQ?](http://stackoverflow.com/questions/1217228/what-is-the-java-equivalent-for-linq)
 - [Hibernate hbm2ddl.auto possible values and what they do?](http://stackoverflow.com/questions/438146/hibernate-hbm2ddl-auto-possible-values-and-what-they-do)
-- [How can I pad an integers with zeros on the left?](http://stackoverflow.com/questions/473282/how-can-i-pad-an-integers-with-zeros-on-the-left)
-- [Sort ArrayList of custom Objects by property](http://stackoverflow.com/questions/2784514/sort-arraylist-of-custom-objects-by-property)
-- [Efficiency of Java “Double Brace Initialization”?](http://stackoverflow.com/questions/924285/efficiency-of-java-double-brace-initialization)
-- [Why does this go into an infinite loop?](http://stackoverflow.com/questions/3831341/why-does-this-go-into-an-infinite-loop)
 - [decompiling DEX into Java sourcecode](http://stackoverflow.com/questions/1249973/decompiling-dex-into-java-sourcecode)
-- [Why does Math.round(0.49999999999999994) return 1](http://stackoverflow.com/questions/9902968/why-does-math-round0-49999999999999994-return-1)
-- [Eclipse: Set maximum line length for auto formatting?](http://stackoverflow.com/questions/3697287/eclipse-set-maximum-line-length-for-auto-formatting)
-- [What is the equivalent of the C++ Pair<L,R> in Java?](http://stackoverflow.com/questions/156275/what-is-the-equivalent-of-the-c-pairl-r-in-java)
-- [How do I “decompile” Java class files?](http://stackoverflow.com/questions/272535/how-do-i-decompile-java-class-files)
 - [Useful Eclipse Java Code Templates [closed]](http://stackoverflow.com/questions/1028858/useful-eclipse-java-code-templates)
 - [How to call SOAP web service in Android](http://stackoverflow.com/questions/297586/how-to-call-soap-web-service-in-android)
 
